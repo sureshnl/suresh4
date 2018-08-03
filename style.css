@@ -1,0 +1,101 @@
+
+h2{
+  text-align: center;
+  color: #fff;
+}
+h3{
+  text-align: center;
+}
+.div{
+
+  width: 800px;
+  border-radius: 20px;
+  margin: 0 auto;
+
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9{
+  background: #fff;
+  border-radius: 5%;
+  padding: 0.5%;
+  margin: 0.5%;
+  text-align:justify;
+
+}
+
+@media only screen and (min-width:1024px)  {
+  .div{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 800px;
+    border-radius: 2px;
+    margin: 0 auto;
+
+  }
+.div1{width: 56%;}
+.div2{width: 40%;}
+.div3{width: 32%;}
+.div4{width: 31%;}
+.div5{width: 31%;}
+.div6{width: 48%;}
+.div7{width: 48%;}
+.div8{width: 48%;}
+.div9{width: 48%;}
+
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+  .div{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 800px;
+    border-radius: 2px;
+    margin: 0 auto;
+
+  }
+.div1{width: 98%;}
+.div2{width: 47%;}
+.div3{width: 48%;}
+.div4{width: 47%;}
+.div5{width: 48%;}
+.div6{width: 98%;}
+.div7{width: 31%;}
+.div8{width: 31%;}
+.div9{width: 31%;}
+
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+  .div{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 800px;
+    border-radius: 2px;
+    margin: 0 auto;
+
+  }
+.div1{width: 98%;}
+.div2{width: 98%;}
+.div3{width: 98%;}
+.div4{width: 98%;}
+.div5{width: 98%;}
+.div6{width: 98%;}
+.div7{width: 98%;}
+.div8{width: 98%;}
+.div9{width: 98%;}
+
+*{
+  font-size: 25px;
+}
+}
+}
+}
